@@ -3,7 +3,7 @@ project(LaneDetector)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
-set(SOURCE_FILES main.cpp)
+set(SOURCE_FILES LaneDetector.cpp LaneDetector.h)
 add_executable(LaneDetector ${SOURCE_FILES})
 
 #Add from here!
